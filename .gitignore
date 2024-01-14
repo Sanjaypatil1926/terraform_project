@@ -1,0 +1,9 @@
+# local .terraform dir
+.terraform/*
+
+#btf state files
+*.tfstate
+*.tfstate.*
+
+# tf variable files, may include senitive data
+*.tfvars
